@@ -1,0 +1,379 @@
+[
+    {
+        "label": "torch.utils.data",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.utils.data",
+        "description": "torch.utils.data",
+        "detail": "torch.utils.data",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "errno",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "errno",
+        "description": "errno",
+        "detail": "errno",
+        "documentation": {}
+    },
+    {
+        "label": "codecs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "codecs",
+        "description": "codecs",
+        "detail": "codecs",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision.transforms",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "noisify",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn.functional",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn.functional",
+        "description": "torch.nn.functional",
+        "detail": "torch.nn.functional",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "LeNet",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "kmm",
+        "importPath": "kmm",
+        "description": "kmm",
+        "isExtraImport": true,
+        "detail": "kmm",
+        "documentation": {}
+    },
+    {
+        "label": "get_kernel_width",
+        "importPath": "kmm",
+        "description": "kmm",
+        "isExtraImport": true,
+        "detail": "kmm",
+        "documentation": {}
+    },
+    {
+        "label": "load_MNIST",
+        "importPath": "dataloader",
+        "description": "dataloader",
+        "isExtraImport": true,
+        "detail": "dataloader",
+        "documentation": {}
+    },
+    {
+        "label": "math,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math.",
+        "description": "math.",
+        "detail": "math.",
+        "documentation": {}
+    },
+    {
+        "label": "matrix",
+        "importPath": "cvxopt",
+        "description": "cvxopt",
+        "isExtraImport": true,
+        "detail": "cvxopt",
+        "documentation": {}
+    },
+    {
+        "label": "solvers",
+        "importPath": "cvxopt",
+        "description": "cvxopt",
+        "isExtraImport": true,
+        "detail": "cvxopt",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "assert_array_almost_equal",
+        "importPath": "numpy.testing",
+        "description": "numpy.testing",
+        "isExtraImport": true,
+        "detail": "numpy.testing",
+        "documentation": {}
+    },
+    {
+        "label": "F_MNIST",
+        "kind": 6,
+        "importPath": "dataloader",
+        "description": "dataloader",
+        "peekOfCode": "class F_MNIST(data.Dataset):\n    urls = [\n        'http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz',\n        'http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-labels-idx1-ubyte.gz',\n        'http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz',\n        'http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz',\n    ]\n    raw_folder = 'f_raw'\n    processed_folder = 'f_processed'\n    training_file = 'training.pt'",
+        "detail": "dataloader",
+        "documentation": {}
+    },
+    {
+        "label": "get_int",
+        "kind": 2,
+        "importPath": "dataloader",
+        "description": "dataloader",
+        "peekOfCode": "def get_int(b):\n    return int(codecs.encode(b, 'hex'), 16)\ndef read_label_file(path):\n    with open(path, 'rb') as f:\n        data = f.read()\n        assert get_int(data[:4]) == 2049\n        length = get_int(data[4:8])\n        parsed = np.frombuffer(data, dtype=np.uint8, offset=8)\n        return torch.from_numpy(parsed.copy()).view(length).long()\ndef read_image_file(path):",
+        "detail": "dataloader",
+        "documentation": {}
+    },
+    {
+        "label": "read_label_file",
+        "kind": 2,
+        "importPath": "dataloader",
+        "description": "dataloader",
+        "peekOfCode": "def read_label_file(path):\n    with open(path, 'rb') as f:\n        data = f.read()\n        assert get_int(data[:4]) == 2049\n        length = get_int(data[4:8])\n        parsed = np.frombuffer(data, dtype=np.uint8, offset=8)\n        return torch.from_numpy(parsed.copy()).view(length).long()\ndef read_image_file(path):\n    with open(path, 'rb') as f:\n        data = f.read()",
+        "detail": "dataloader",
+        "documentation": {}
+    },
+    {
+        "label": "read_image_file",
+        "kind": 2,
+        "importPath": "dataloader",
+        "description": "dataloader",
+        "peekOfCode": "def read_image_file(path):\n    with open(path, 'rb') as f:\n        data = f.read()\n        assert get_int(data[:4]) == 2051\n        length = get_int(data[4:8])\n        num_rows = get_int(data[8:12])\n        num_cols = get_int(data[12:16])\n        images = []\n        parsed = np.frombuffer(data, dtype=np.uint8, offset=16)\n        return torch.from_numpy(parsed.copy()).view(length, num_rows, num_cols)",
+        "detail": "dataloader",
+        "documentation": {}
+    },
+    {
+        "label": "load_MNIST",
+        "kind": 2,
+        "importPath": "dataloader",
+        "description": "dataloader",
+        "peekOfCode": "def load_MNIST(batch_size : int, batch_size_val : int, noise_type : str, noise_rate : float, num_val : int): \n    train = F_MNIST(root=\"./data/\",\n                    download = True, \n                    train = True, \n                    transform = transforms.ToTensor(), \n                    noise_type = noise_type, \n                    noise_rate = noise_rate \n                    )\n    test = F_MNIST(root=\"./data/\", \n                    download = True,",
+        "detail": "dataloader",
+        "documentation": {}
+    },
+    {
+        "label": "get_model",
+        "kind": 2,
+        "importPath": "diw",
+        "description": "diw",
+        "peekOfCode": "def get_model():\n    net = LeNet(n_out = 10)\n    if torch.cuda.is_available():\n        net.cuda()\n    opt = torch.optim.SGD(net.parameters(), lr=args.lr, weight_decay=args.weight_decay)\n    scheduler = torch.optim.lr_scheduler.StepLR(opt, step_size=args.step, gamma=args.gamma)\n    return net, opt, scheduler\ndef main():\n    if torch.cuda.is_available():\n        device = \"cuda\"",
+        "detail": "diw",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "diw",
+        "description": "diw",
+        "peekOfCode": "def main():\n    if torch.cuda.is_available():\n        device = \"cuda\"\n    else:\n        device = \"cpu\"\n    # data loaders\n    train_loader, val_loader, test_loader = load_MNIST(\n        args.batch_size, \n        args.batch_size_val,\n        args.noise_type,",
+        "detail": "diw",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "kind": 5,
+        "importPath": "diw",
+        "description": "diw",
+        "peekOfCode": "parser = argparse.ArgumentParser()\nparser.add_argument(\"--noise_type\", type = str, default = 'symmetric')\nparser.add_argument(\"--noise_rate\", type = float, default = 0.4)\nparser.add_argument(\"--num_val\", type = int, default = 1000)\nparser.add_argument(\"--batch_size\", type = int, default = 256)\nparser.add_argument(\"--batch_size_val\", type = int, default = 256)\nparser.add_argument(\"--num_epoch\", type = int, default = 400)\nparser.add_argument(\"--lr\", type = float, default = 0.0003)\nparser.add_argument(\"--step\", type = float, default = 100)\nparser.add_argument(\"--gamma\", type = float, default = 0.1)",
+        "detail": "diw",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": "diw",
+        "description": "diw",
+        "peekOfCode": "args = parser.parse_args()\nrandom.seed(args.seed)\nnp.random.seed(args.seed)\ntorch.manual_seed(args.seed)\nos.environ['PYTHONHASHSEED'] = '0'\ntorch.cuda.manual_seed(args.seed)\ntorch.cuda.manual_seed_all(args.seed)\ntorch.backends.cudnn.benchmark = False\ntorch.backends.cudnn.deterministic = True\ndef get_model():",
+        "detail": "diw",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ['PYTHONHASHSEED']",
+        "kind": 5,
+        "importPath": "diw",
+        "description": "diw",
+        "peekOfCode": "os.environ['PYTHONHASHSEED'] = '0'\ntorch.cuda.manual_seed(args.seed)\ntorch.cuda.manual_seed_all(args.seed)\ntorch.backends.cudnn.benchmark = False\ntorch.backends.cudnn.deterministic = True\ndef get_model():\n    net = LeNet(n_out = 10)\n    if torch.cuda.is_available():\n        net.cuda()\n    opt = torch.optim.SGD(net.parameters(), lr=args.lr, weight_decay=args.weight_decay)",
+        "detail": "diw",
+        "documentation": {}
+    },
+    {
+        "label": "torch.backends.cudnn.benchmark",
+        "kind": 5,
+        "importPath": "diw",
+        "description": "diw",
+        "peekOfCode": "torch.backends.cudnn.benchmark = False\ntorch.backends.cudnn.deterministic = True\ndef get_model():\n    net = LeNet(n_out = 10)\n    if torch.cuda.is_available():\n        net.cuda()\n    opt = torch.optim.SGD(net.parameters(), lr=args.lr, weight_decay=args.weight_decay)\n    scheduler = torch.optim.lr_scheduler.StepLR(opt, step_size=args.step, gamma=args.gamma)\n    return net, opt, scheduler\ndef main():",
+        "detail": "diw",
+        "documentation": {}
+    },
+    {
+        "label": "torch.backends.cudnn.deterministic",
+        "kind": 5,
+        "importPath": "diw",
+        "description": "diw",
+        "peekOfCode": "torch.backends.cudnn.deterministic = True\ndef get_model():\n    net = LeNet(n_out = 10)\n    if torch.cuda.is_available():\n        net.cuda()\n    opt = torch.optim.SGD(net.parameters(), lr=args.lr, weight_decay=args.weight_decay)\n    scheduler = torch.optim.lr_scheduler.StepLR(opt, step_size=args.step, gamma=args.gamma)\n    return net, opt, scheduler\ndef main():\n    if torch.cuda.is_available():",
+        "detail": "diw",
+        "documentation": {}
+    },
+    {
+        "label": "kmm",
+        "kind": 2,
+        "importPath": "kmm",
+        "description": "kmm",
+        "peekOfCode": "def kmm(x_train, x_test, sigma):\n    x_train = x_train.astype(np.double)\n    x_test = x_test.astype(np.double)\n    n_tr = len(x_train)\n    n_te = len(x_test)\n    # calculate Kernel\n    K = sk.rbf_kernel(x_train, x_train, sigma)\n    # regularization\n    K = K + 0.00001 * np.identity(n_tr)\n    # calculate kappa",
+        "detail": "kmm",
+        "documentation": {}
+    },
+    {
+        "label": "get_kernel_width",
+        "kind": 2,
+        "importPath": "kmm",
+        "description": "kmm",
+        "peekOfCode": "def get_kernel_width(data):\n    dist = []\n    for i in range(len(data)):\n        for j in range(i + 1, len(data)):\n            dist.append(numpy.sqrt(numpy.sum((numpy.array(data[i]) - numpy.array(data[j])) ** 2)))\n    return numpy.quantile(numpy.array(dist), 0.01)",
+        "detail": "kmm",
+        "documentation": {}
+    },
+    {
+        "label": "LeNet",
+        "kind": 6,
+        "importPath": "model",
+        "description": "model",
+        "peekOfCode": "class LeNet(nn.Module):\n    def __init__(self, n_out):\n        super(LeNet, self).__init__()\n        self.conv1 = nn.Sequential(  # input_size = (1 * 28 * 28)\n            nn.Conv2d(1, 6, kernel_size=5, padding=2),\n            nn.ReLU(),  # input_size = (6* 28 * 28)\n            nn.MaxPool2d(kernel_size=2, stride=2),  # output_size = (6 * 14 * 14)\n        )\n        self.conv2 = nn.Sequential(\n            nn.Conv2d(6, 16, kernel_size=5),",
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "multiclass_noisify",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def multiclass_noisify(y, P, random_state=0):\n    \"\"\" Flip classes according to transition probability matrix T.\n    It expects a number between 0 and the number of classes - 1.\n    \"\"\"\n    assert P.shape[0] == P.shape[1]\n    assert np.max(y) < P.shape[0]\n    # row stochastic matrix\n    assert_array_almost_equal(P.sum(axis=1), np.ones(P.shape[1]))\n    assert (P >= 0.0).all()\n    m = y.shape[0]",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "noisify_pairflip",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def noisify_pairflip(y_train, noise, random_state=None, nb_classes=10):\n    P = np.eye(nb_classes)\n    n = noise\n    if n > 0.0:\n        P[0, 0], P[0, 1] = 1. - n, n\n        for i in range(1, nb_classes - 1):\n            P[i, i], P[i, i + 1] = 1. - n, n\n        P[nb_classes - 1, nb_classes - 1], P[nb_classes - 1, 0] = 1. - n, n\n        y_train_noisy = multiclass_noisify(y_train, P=P,\n                                           random_state=random_state)",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "noisify_multiclass_symmetric",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def noisify_multiclass_symmetric(y_train, noise, random_state=None, nb_classes=10):\n    P = np.ones((nb_classes, nb_classes))\n    n = noise\n    P = (n / (nb_classes - 1)) * P\n    if n > 0.0:\n        P[0, 0] = 1. - n\n        for i in range(1, nb_classes - 1):\n            P[i, i] = 1. - n\n        P[nb_classes - 1, nb_classes - 1] = 1. - n\n        y_train_noisy = multiclass_noisify(y_train, P=P,",
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "noisify",
+        "kind": 2,
+        "importPath": "utils",
+        "description": "utils",
+        "peekOfCode": "def noisify(nb_classes=10, train_labels=None, noise_type=None, noise_rate=0, random_state=100):\n    if noise_type == 'pair':\n        train_noisy_labels, actual_noise_rate = noisify_pairflip(train_labels, noise_rate, random_state=100,\n                                                                 nb_classes=nb_classes)\n    if noise_type == 'symmetric':\n        train_noisy_labels, actual_noise_rate = noisify_multiclass_symmetric(train_labels, noise_rate, random_state=100,\n                                                                             nb_classes=nb_classes)\n    return train_noisy_labels, actual_noise_rate",
+        "detail": "utils",
+        "documentation": {}
+    }
+]
